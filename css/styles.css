@@ -1,0 +1,70 @@
+#projectName {
+    font-size: 7rem;
+}
+
+#navbar {
+    position: fixed;
+    border-bottom: #FF43B4 solid 2px;
+}
+
+.navbar-name {
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.left-100 {
+  left: 100%;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+#menu {
+  transition: .2s;
+}
+
+#menu a {
+    color: #FF43B4;
+}
+
+#menu-btn img {
+    width: 3.5rem;
+    height: auto;
+}
+
+.menu-elements li a {
+    border-style: dotted;
+    border-width: thin;
+    padding: 1.5%;
+    display: block;
+    text-decoration: none;
+}
+
+.menu-elements li a:hover{
+    background-color: #69f8c4;
+    color: #4233ff;
+}
+
+footer {
+    border-top: #FF43B4 solid 2px;
+}
+
+@media only screen and (max-width: 500px) {
+    #projectName {
+        font-size: 13vw;
+    }
+    .menu-elements li a {
+        padding: 2%;
+    }
+
+    #menu {
+        margin-top: 3.7rem;
+    }
+
+    #menu a {
+        border-width: 1px;
+        border-color: #ff70c7;
+    }
+}
