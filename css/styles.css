@@ -29,6 +29,10 @@
     color: #FF43B4;
 }
 
+/* #menu-btn {
+    display: none;
+} */
+
 #menu-btn img {
     width: 3.5rem;
     height: auto;
@@ -51,9 +55,28 @@
   display: block;
 }
 
+.project {
+    width: 47%;
+}
+
 footer {
     border-top: #FF43B4 solid 2px;
 }
+
+/*  for ipad and tablets   */
+@media only screen and (max-width: 800px) {
+
+    /* #menu-btn {
+        display: table-cell;
+    } */
+
+    .project {
+        width: 100%;
+    }
+
+}
+
+/*  for iphone and smartphones   */
 
 @media only screen and (max-width: 500px) {
     #projectName {
@@ -71,4 +94,18 @@ footer {
         border-width: 1px;
         border-color: #ff70c7;
     }
+
+    /* #menu-btn {
+        display: table-cell;
+    } */
+
+    .project {
+        width: 100%;
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
 }
