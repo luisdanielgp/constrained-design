@@ -31,26 +31,30 @@
         </nav>
 
 
-    <section class="center pt6 ph3 ph6-ns black bg-white">
+    <section class="pt6 ph3 ph6-ns black bg-white">
 
-        <div id="about" class="flex-ns flex-wrap">
-            <div class="lh-copy w-two-thirds-ns w-100-m pr5-ns pr0-m">
-                <h2 class="fw4">About me</h2>
-                <p>Born and raised in Mexico, I started my professional formation as a music production engineer, gathered all the knowledge I possibly could and changed degrees to Industrial Design. Parallel to my ID studies, I started learning digital design and web development, in a matter of time, I found myself in a back-end web developer internship where I lasted for a couple of years while experimenting with different formats of design practice and collaborating with people in various backgrounds. This journey made me realize what I really wanted to do: I aim to use design and technology as tools for empowering people to become aware, criticize or solve whatever problem, system or situation they experience in their daily lives.</p>
-                <a href="portfolio.html" class="dim hot-pink">See my portfolio</a>
-            </div>
-            <div class="mv5 pl0-m center w-third-m">
+        <div id="portfolio-categories" class="flex flex-wrap w-100 justify-around mb4">
+            <a class="btn link dim ph4 pv3 mv3 hot-pink ba br3 w-15 tc active" onclick="filterSelection('all')">All</a>
+            <a class="btn link dim ph4 pv3 mv3 hot-pink ba br3 w-15 tc" onclick="filterSelection('software-development')">Software Development</a>
+            <a class="btn link dim ph4 pv3 mv3 hot-pink ba br3 w-15 tc" onclick="filterSelection('future')">Future</a>
+            <a class="btn link dim ph4 pv3 mv3 hot-pink ba br3 w-15 tc" onclick="filterSelection('product-design')">Product Design</a>
+            <a class="btn link dim ph4 pv3 mv3 hot-pink ba br3 w-15 tc" onclick="filterSelection('industrial-design')">Industrial Design</a>
+        </div>
+
+        <div class="flex flex-wrap">
+            <div class="project software-development dn">
                 <img src="img/guitar_japan.jpg" alt="bluesman ichiban" class="mw5-ns mw-100-m">
                 <p class="tc">Bluesman ichiban</p>
             </div>
+            <div class="project product-design dn">
+                <img src="img/guitar_japan.jpg" alt="bluesman ichiban" class="mw5-ns mw-100-m">
+                <p class="tc">product design</p>
+            </div>
+            <div class="project future dn">
+                <img src="img/guitar_japan.jpg" alt="bluesman ichiban" class="mw5-ns mw-100-m">
+                <p class="tc">future</p>
+            </div>
         </div>
-
-        <h2 class="fw4">Constrained design?</h2>
-        <div class="lh-copy">
-            <p>I was always intrigued by how designers delimitate design problems, where was that voice that told them what to consider, what to ignore and what to avoid? It wasn’t until I started working on projects that tackled more complex situations when it came to my knowledge. Design constraints will always exist, on different levels and from different sources. A big part of our job as designers is to develop solutions that respond to precise constraints. Most of the time it is not straightforward and we may lose focus when surrounded by huge systems but, it is important to always have a set of directions to help us keep our eyes on the road.</p>
-        </div>
-
-
 
     </section>
 
@@ -62,5 +66,6 @@
     </footer>
 
     <script src="js/scripts.js"></script>
+    <script src="js/show-projects.js"></script>
   </body>
 </html>

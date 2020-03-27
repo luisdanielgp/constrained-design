@@ -47,6 +47,10 @@
     color: #4233ff;
 }
 
+.show {
+  display: block;
+}
+
 footer {
     border-top: #FF43B4 solid 2px;
 }
