@@ -51,6 +51,11 @@
   display: block;
 }
 
+.clickable:hover, .clickable div:hover {
+    color: green;
+    cursor: pointer;
+}
+
 .project {
     width: 47%;
 }
