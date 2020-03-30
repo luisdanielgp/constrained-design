@@ -105,3 +105,12 @@ footer {
     }
 
 }
+
+@media only screen and (min-width: 1600px) {
+
+    .container {
+        padding-left: 28%;
+        padding-right: 28%;
+    }
+
+}
