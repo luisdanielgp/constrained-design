@@ -51,6 +51,11 @@
   display: block;
 }
 
+.clickable:hover, .clickable div:hover {
+    color: green;
+    cursor: pointer;
+}
+
 .project {
     width: 47%;
 }
@@ -102,6 +107,15 @@ footer {
     .container {
         padding-left: 1rem;
         padding-right: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+    .container {
+        padding-left: 28%;
+        padding-right: 28%;
     }
 
 }
