@@ -60,6 +60,12 @@
     width: 47%;
 }
 
+#mc-embedded-subscribe {
+    border-color: #ff41b4 !important;
+    align-content: center !important;
+    margin: 0 !important;
+}
+
 footer {
     border-top: #FF43B4 solid 2px;
 }
