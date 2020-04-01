@@ -86,9 +86,6 @@ footer {
 /*  for iphone and smartphones   */
 
 @media only screen and (max-width: 500px) {
-    #projectName {
-        font-size: 13vw;
-    }
     .menu-elements li a {
         padding: 2%;
     }
