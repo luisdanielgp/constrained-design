@@ -1134,14 +1134,14 @@ h1 span {
   .text-landing + .text-cols {
     margin-top: 3.2rem; } }
 
-.text-cols p:first-child:first-letter {
+/* .text-cols p:first-child:first-letter {
   float: left;
   font-size: 11rem;
   font-weight: 600;
   line-height: 1;
   margin: -.4rem 1.6rem 0 0;
   padding: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase; } */
 
 /* -- Heading with border -- */
 .text-context {
@@ -3155,7 +3155,7 @@ Slides - Backgrounds <section class="bg-primary">
   background-color: #123; }
 
 .bg-blue {
-  background-color: #346; }
+  background-color: #172bd0; }
 
 .bg-brown {
   background-color: #f9f8f2; }
